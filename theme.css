@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	background-color: #592E83;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #654597;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+a:link, a:visited {
+    color: #E7ECEF;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #592E83;
+}
