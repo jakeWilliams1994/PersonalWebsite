@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background-color: #592E83;
+	background-color: #E7ECEF;
+	color: black;
 }
 
 ul {
@@ -27,4 +28,24 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: #592E83;
+}
+
+footer {
+	background-color: #654597;
+    padding: 8px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;   /* Height of the footer */
+}
+footer p {
+	color: #E7ECEF;
+}
+
+p {
+	color: black;
+}	
+
+.blogpost {
+	text-align : center
 }
