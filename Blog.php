@@ -13,7 +13,7 @@
 		<script src="js/Blog.js"></script>
 	</head>
 	<body>
-		<div id="blogs">
+		<div>
 			<?php
 				$str = file_get_contents('json/BlogPosts.json');
 				$obj = json_decode($str, true);
@@ -21,7 +21,7 @@
 				$end = ((count($obj['posts']) > 5) ? 5 : count($obj['posts']));
 				for ($i = $start; $i < $end; $i++) {
 			?>
-					<div class="blogpost">
+					<div>
 						<h2><?php print $obj['posts'][$i]['title']; ?></h2>
 						<img src="<?php print $obj['posts'][$i]['image']; ?>" height="200" width="200">
 						<p><?php print $obj['posts'][$i]['text']; ?></p>
