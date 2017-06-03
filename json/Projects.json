@@ -1,0 +1,25 @@
+{
+	"projects": 
+	[
+		{
+			"title": "First Heading",
+			"image": "PlaceHolder.jpg",
+			"text": "This is the third heading."
+		},
+		{
+			"title": "Second Heading",
+			"image": "PlaceHolder2.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "Second Heading",
+			"image": "PlaceHolder2.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "heading 3",
+			"image": "PlaceHolder2.jpg",
+			"text": "This is the third heading."
+		}
+	]
+}
