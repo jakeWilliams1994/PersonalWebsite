@@ -1,0 +1,35 @@
+{
+	"posts": 
+	[
+		{
+			"title": "First Heading",
+			"image": "PlaceHolder.jpg",
+			"text": "Lorem ipsum dolor sit amet. Donec lacinia lacus quis magna luctus condimentum. Nunc blandit rhoncus felis, laoreet egestas turpis rutrum nec. Etiam nec imperdiet nisl. Phasellus enim massa, convallis nec ex et, condimentum commodo nulla. Maecenas rhoncus sollicitudin consectetur. Integer euismod suscipit felis, a placerat est sollicitudin id. Etiam accumsan consequat erat id gravida."
+		},
+		{
+			"title": "Second Heading",
+			"image": "PlaceHolder2.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "Third Heading",
+			"image": "PlaceHolder2.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "Fourth Heading",
+			"image": "PlaceHolder2.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "Fifth Heading",
+			"image": "PlaceHolder.jpg",
+			"text": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title": "Sixth Heading",
+			"image": "PlaceHolder.jpg",
+			"text": "This is the third heading."
+		}
+	]
+}

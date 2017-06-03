@@ -15,19 +15,20 @@
 	<body>
 		<div id="blogs">
 			<?php
-				$str = file_get_contents('json/test.json');
-				$obj = json_decode($str);
+				$str = file_get_contents('json/BlogPosts.json');
+				$obj = json_decode($str, true);
+				$start = 0;
+				$end = ((count($obj['posts']) > 5) ? 5 : count($obj['posts']));
+				for ($i = $start; $i < $end; $i++) {
 			?>
-			<div class="blogpost">
-				<h2><?php print $obj->{'title'}; ?></h2>
-				<img src="<?php print $obj->{'image'}; ?>" alt="Placeholder" height="200" width="200">
-				<p><?php print $obj->{'text'}; ?></p>
-			</div>
-			<div class="blogpost">
-				<h2>header1</h2>
-				<img src="placeholder.jpg" alt="Placeholder" height="200" width="200">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia lacus quis magna luctus condimentum. Nunc blandit rhoncus felis, laoreet egestas turpis rutrum nec. Etiam nec imperdiet nisl. Phasellus enim massa, convallis nec ex et, condimentum commodo nulla. Maecenas rhoncus sollicitudin consectetur. Integer euismod suscipit felis, a placerat est sollicitudin id. Etiam accumsan consequat erat id gravida.</p>
-			</div>	
+					<div class="blogpost">
+						<h2><?php print $obj['posts'][$i]['title']; ?></h2>
+						<img src="<?php print $obj['posts'][$i]['image']; ?>" height="200" width="200">
+						<p><?php print $obj['posts'][$i]['text']; ?></p>
+					</div>
+			<?php
+				}
+			?>
 		<div>
 	</body>
 	<footer>
