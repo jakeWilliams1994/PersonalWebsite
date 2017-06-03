@@ -4,10 +4,10 @@
 		<title>Jake Williams Development Projects</title>
 		<link rel="stylesheet" type="text/css" href="theme.css">
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Blog.html">Blog</a></li>
-			<li><a href="Projects.html">Projects</a></li>
-			<li><a href="Profile.html">Profile</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="Blog.php">Blog</a></li>
+			<li><a href="Projects.php">Projects</a></li>
+			<li><a href="Profile.php">Profile</a></li>
 		</ul>
 	</head>
 	<body>
